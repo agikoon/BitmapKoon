@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- status bar Color -->
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <!-- Toolbar Color -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <!-- CheckBox, RadioButton, Progress, tab -->
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+</resources>
